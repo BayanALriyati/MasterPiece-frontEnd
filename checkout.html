@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="head">
+
+<section class="header">
+
+   <div class="header-1">
+    
+     <a href="#" ><img src="images/logo-color.png" alt="logo" class="logo" ></a>
+     
+     <div class="header-2">
+ 
+      <nav class="nav">
+         <a href="./index.html">Home</a>
+         <a href="./yourGift.html">Your Gift</a>
+         <a href="./aboutUs.html">About Us</a>        
+         <a href="./contactUs.html">Contact Us</a>
+      </nav>
+      
+   </div>
+
+     <div class="icon">
+         <div id="search-btn" class="fas fa-search"></div>
+         <a href="./search.html" class="fas fa-search"></a>
+         <a href="./yourCart.html" class="fas fa-shopping-cart"></a>
+         <a href="./login.html" class="fas fa-user"></a>
+     </div>
+ 
+   </div>
+ 
+
+   <nav class="bottom-nav">
+      <a href="./index.html" class="fas fa-home"></a>
+      <a href="./Catogery.html" class="fas fa-gift"></a>
+      <a href="./aboutUs.html" class="fas fa-question"></a>
+      <a href="./contactUs.html" class="fas fa-address-card"></a>
+  </nav>
+</section>
+</header>
+
+<div class="heading-main">
+    <h3>Checkout</h3>
+    <p><a href="home.html">home </a> <span> / Checkout</span></p>
+ </div>
+
+
+     <section class="w-100 vh-150 mt-3" style="background:url(./images/heading-bg.jpg);">
+     <div class="container">
+  <div class="py-5 text-center">
+  
+  <div class="row">
+    <div class="col-md-4 order-md-2 mb-4">
+      <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span class="text-muted fs-1">Your cart</span>
+        <span class="badge badge-secondary badge-pill">3</span>
+      </h4>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-3 fs-2">gift name</h6>
+            <small class="text-muted fs-4">Brief description</small>
+          </div>
+          <span class="text-muted my-3 fs-2">JD12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-3 fs-2">Second Gift</h6>
+            <small class="text-muted fs-4">Brief description</small>
+          </div>
+          <span class="text-muted my-3 fs-2">JD8</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-3 fs-2">Third Gift</h6>
+            <small class="text-muted fs-4">Brief description</small>
+          </div>
+          <span class="text-muted my-3 fs-2">JD5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-light">
+          <div class="text-black">
+            <h6 class="my-3 fs-2">Promo code</h6>
+            <small>EXAMPLECODE</small>
+          </div>
+          <span class="text-black my-3 fs-2">-JD5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span class="my-3 fs-2">Total (JOD)</span>
+          <strong class="my-3 fs-2">JD20</strong>
+        </li>
+      </ul>
+
+      <form class="card p-3 my-3">
+        <!-- <div class="input-group"> -->
+          <!-- <div class="input-group-append"> -->
+            <button type="submit" class="btn btn-secondary my-3 fs-2">place order</button>
+          <!-- </div> -->
+        <!-- </div> -->
+      </form>
+    </div>
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Billing address</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <label for="firstName" class="fs-4">First name</label>
+            <input type="text"  class="card form-control vh-10" id="firstName" placeholder="" value="" required>
+            <!-- <div class="invalid-feedback">
+              Valid first name is required.
+            </div> -->
+          </div>
+          <div class="col-md-6 mb-5">
+            <label for="lastName" class="fs-4">Last name</label>
+            <input type="text" class="card form-control vh-10" id="lastName" placeholder="" value="" required>
+            <!-- <div class="invalid-feedback">
+              Valid last name is required.
+            </div> -->
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <label for="username" class="fs-4">Username</label>
+          <!-- <div class="input-group"> -->
+            <input type="text" class="card form-control vh-10" id="username" placeholder="Username" required>
+            <div class="invalid-feedback" style="width: 100%;">
+              Your username is required.
+            </div>
+          <!-- </div> -->
+        </div>
+
+        <div class="mb-5">
+          <label for="email" class="fs-4">Email <span class="text-muted">(Optional)</span></label>
+          <input type="email" class="card form-control hvh-10" id="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <label for="address" class="fs-4">Address</label>
+          <input type="text" class="card form-control vh-10" id="address" placeholder="1234 Main St" required>
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <label for="address2" class="fs-4">Address 2 <span class="text-muted">(Optional)</span></label>
+          <input type="text" class="card form-control vh-10" id="address2" placeholder="Apartment or suite">
+        </div>        
+        <hr class="mb-4">
+
+        <h4 class="mb-5">Payment</h4>
+
+        <div class="d-block my-5">
+          <div class="custom-control custom-radio">
+            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+            <label class="custom-control-label h-100 fs-4" for="credit">Credit card</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label h-100 fs-4" for="debit">pay cash</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <label for="cc-name" class="fs-4">Name on card</label>
+            <input type="text" class="card form-control vh-10" id="cc-name" placeholder="" required>
+            <small class="text-muted fs-5">Full name as displayed on card</small>
+            <div class="invalid-feedback">
+              Name on card is required
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <label for="cc-number" class="fs-4">Credit card number</label>
+            <input type="text" class="card form-control vh-10" id="cc-number" placeholder="" required>
+            <div class="invalid-feedback">
+              Credit card number is required
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+  
+<!-- footer section starts  -->
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <footer class="bg-danger-subtle text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 100px; height: 100px;">
+              <img src="images/logo-color.png" alt="logo" style="width: 100px; height: 100px;" loading="lazy" />
+          </div>
+
+          <p class="text-center text-black ">The Best Gifts</p>
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a class="text-black px-2" href="#!">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-black px-2" href="#!">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-black ps-2" href="#!">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase text-black mb-4">Quick links</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-home pe-3"></i>When your pet is missing</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-gift pe-3"></i>Recently found</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-question pe-3"></i>How to adopt?</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-address-card pe-3"></i>Pets for adoption</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+        
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase text-black mb-4">Category</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-gift pe-3"></i>Choose Gifts</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-box pe-3"></i>Choose Box</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-file-picture-o pe-3"></i>Choose Card</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-flower-daffodil"></i> 
+              </i>Choose flowers</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-black"><i class="fas fa-chocolate pe-3"></i>Choose Chocolates</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+        
+        
+        
+        
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase text-black mb-4">Contact us</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p class="text-black"><i class="fas fa-map-marker-alt pe-2"></i>Aqaba-Jordan</p>
+            </li>
+            <li>
+              <p class="text-black"><i class="fas fa-phone pe-2"></i>0786324604</p>
+            </li>
+            <li>
+              <p class="text-black"><i class="fas fa-envelope pe-2 mb-0"></i>gift@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color:#621147">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">THE BEST GIFT</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</div>
+<!-- End of .container -->
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!-- Bootstrap 5 JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>

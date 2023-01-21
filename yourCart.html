@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="head">
+
+<section class="header">
+
+   <div class="header-1">
+    
+     <a href="#" ><img src="images/logo-color.png" alt="logo" class="logo" ></a>
+     
+     <div class="header-2">
+ 
+      <nav class="nav">
+         <a href="./index.html">Home</a>
+         <a href="./yourGift.html">Your Gift</a>
+         <a href="./aboutUs.html">About Us</a>        
+         <a href="./contactUs.html">Contact Us</a>
+      </nav>
+      
+   </div>
+
+     <div class="icon">
+         <div id="search-btn" class="fas fa-search"></div>
+         <a href="./search.html" class="fas fa-search"></a>
+         <a href="./yourCart.html" class="fas fa-shopping-cart"></a>
+         <a href="./login.html" class="fas fa-user"></a>
+     </div>
+ 
+   </div>
+ 
+
+   <nav class="bottom-nav">
+      <a href="./index.html" class="fas fa-home"></a>
+      <a href="./Catogery.html" class="fas fa-gift"></a>
+      <a href="./aboutUs.html" class="fas fa-question"></a>
+      <a href="./contactUs.html" class="fas fa-address-card"></a>
+  </nav>
+</section>
+</header>
+
+<div class="heading-main">
+    <h3>Your Cart</h3>
+    <p><a href="home.html">home </a> <span> / Your Cart</span></p>
+ </div>
+
+<!-- Cart Items -->
+  <div class="container cart">
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/box/Packaging2.jpg" alt="" />
+            <div>
+              <p>Bambi Print Mini Backpack</p>
+              <span>Price: $500.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$50.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/card/card2.jpg" alt="" />
+            <div>
+              <p>Bambi Print Mini Backpack</p>
+              <span>Price: $900.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$90.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/gifts/gift2.jpg" alt="" />
+            <div>
+              <p>Bambi Print Mini Backpack</p>
+              <t>Price: $700.00</t>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$60.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/Chocolate/Chocolate2.jpg" alt="" />
+            <div>
+              <p>Bambi Print Mini Backpack</p>
+              <span>Price: $600.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>$60.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/flower/flower1-remove.png" alt="" />
+            <div>
+              <p>Bambi Print Mini Backpack</p>
+              <span>Price: $600.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td class="price">$60.00</td>
+      </tr>
+    </table>      
+    <a href="./yourGift.html" class="continue btn">CONTINUE SHOPPING</a>
+
+    <div class="total-price">
+        <div >
+      <table class="table">
+        <tr>
+          <td>Subtotal</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>$250</td>
+        </tr>
+      </table>
+      <a href="./checkout.html" class="checkout btn">Proceed To Checkout</a>
+    </div>
+   <div class="form-time">
+        <form action="">
+          <h1>Please select your delivery date</h1>
+          <input type="datetime-local" id="time" class="time" name="time">
+         </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+    <footer class="bg-danger-subtle text-center text-lg-start text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row my-4">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+  
+            <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 100px; height: 100px;">
+                <img src="images/logo-color.png" alt="logo" style="width: 100px; height: 100px;" loading="lazy" />
+            </div>
+  
+            <p class="text-center text-black ">The Best Gifts</p>
+  
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+              <li>
+                <a class="text-black px-2" href="#!">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-black px-2" href="#!">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-black ps-2" href="#!">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-black mb-4">Quick links</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-home pe-3"></i>When your pet is missing</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-gift pe-3"></i>Recently found</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-question pe-3"></i>How to adopt?</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-address-card pe-3"></i>Pets for adoption</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+          
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-black mb-4">YOUR GIFT</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-gift pe-3"></i>Choose Gifts</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-box pe-3"></i>Choose Box</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-file-picture-o pe-3"></i>Choose Card</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-flower-daffodil"></i> 
+                </i>Choose flowers</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-black"><i class="fas fa-chocolate pe-3"></i>Choose Chocolates</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+          
+          
+          
+          
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-black mb-4">Contact us</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                <p class="text-black"><i class="fas fa-map-marker-alt pe-2"></i>Aqaba-Jordan</p>
+              </li>
+              <li>
+                <p class="text-black"><i class="fas fa-phone pe-2"></i>0786324604</p>
+              </li>
+              <li>
+                <p class="text-black"><i class="fas fa-envelope pe-2 mb-0"></i>gift@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color:#621147">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">THE BEST GIFT</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  
+  </div>
+  <!-- End of .container -->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="./js/silder.js"></script>
+</body>
+</html>
+  
