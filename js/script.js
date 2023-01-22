@@ -50,3 +50,4 @@ search.addEventListener("keyup", (e) => {
     }
 
 })
+
