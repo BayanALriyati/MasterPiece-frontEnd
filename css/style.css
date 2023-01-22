@@ -1399,10 +1399,6 @@ section i{
       display: block;
   }
 
-  #search-btn{
-      display: inline-block;
-  }
-
   .header .header-1{
       box-shadow: var(--box-shadow);
       position: relative;
