@@ -371,12 +371,6 @@ section{
 }
 
 .btn{
-   z-index: 1000;
-   text-align: center;
-   margin: auto auto;
-   display:inline-block;
-   padding:.9rem 3rem;
-   /* border: 1px solid black; */
    border-radius: .5rem;
    color:var(--white);
    background:var(--dark-color);
@@ -1246,22 +1240,41 @@ img {
    margin-top:3rem;
  }
 
- .total-price .continue {
-   border: 3px solid var(--dark-color);
-   width: 100%;
-   font-weight: bolder;
-   max-width: 35rem;
-   margin-right: 0rem;
-   margin-top: 10rem;
+  /* .continue {
+   z-index: 1000;
+   text-align: center;
+   margin: auto auto;
+   display:inline-block;
+   padding:.9rem 3rem;
+   border-radius: .5rem;
+   color:var(--white);
+   background:var(--dark-color);
+   font-size: 1.7rem;
+   cursor: pointer;
+   font-weight: 500;
+   text-decoration: none;
+} */
+
+  .btnCart {
+   z-index: 1000;
+   text-align: center;
+   margin: auto auto;
+   display:inline-block;
+   padding:.9rem 3rem;
+   border: 1px solid black;
+   border-radius: 5rem;
+   color:var(--white);
+   background:var(--dark-color);
+   font-size: 1.7rem;
+   cursor: pointer;
+   font-weight: 500;
+   text-decoration: none;
+
 }
 
- .total-price .checkout {
-   border: 3px solid var(--dark-color);
-   width: 100%;
-   font-weight: bolder;
-   max-width: 35rem;
-   margin-right: 0rem;
-   margin-top: 10rem;
+.btnCart:hover{
+   color:var(--black);
+   background-image: url(../images/heading-bg.jpg);
 }
 
  td:last-child {
