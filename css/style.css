@@ -518,7 +518,7 @@ section{
 }
 
 .icons-container .icons h3{
-   color:#333;
+   color:hsl(0, 0%, 20%);
    padding-bottom: .5rem;
    font-size: 1.5rem;
    text-align: center;
